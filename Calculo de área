@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+
+        var base = prompt("Digite a base do retangulo");
+        var altura = prompt("Digite a altura do retangulo");
+        var area = base * altura;
+        alert("A área do retangulo é: " + area);
+
+        var basequadrado = prompt("Digite o primeiro lado do seu quadrado")
+        var ladoquadrado = prompt("Digite o segundo lado do seu quadrado")
+        var result = basequadrado * ladoquadrado
+        alert("A área do seu quadrado é " + result + "²")
+
+        var diagonalmaior = prompt("Digite a diagonal maior do losango")
+        var diagonalmenor = prompt("Digite a diagonal menor do losango")
+        var resolucao = diagonalmaior * diagonalmenor
+        alert("A área do seu losango é " + resolucao / 2)
+
+        var basemaior = prompt("Digite a base maior do seu trapézio")
+        var basemenor = prompt("Digite a base menor do seu trapézio")
+        var height = prompt("Digite a altura do seu trapézio") 
+        var resumo = ((basemaior + basemenor)) * height
+        alert("A área do seu trapézio é " + resumo / 2)
+
+        var basetriangulo = prompt("Digite a base do seu triangulo")
+        var alturatriangulo = prompt("Digite a altura do seu triangulo")
+        var triangular = basetriangulo * alturatriangulo
+        alert("A área de seu triangulo é " + triangular / 2)
+
+        var PI = 3.14
+        var redondo = prompt("Digite o radius do seu redondo")
+        var calculo = PI * ((redondo * redondo))
+        alert("A área do seu circulo é " + calculo)
+
+</script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
